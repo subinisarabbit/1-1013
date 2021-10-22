@@ -68,7 +68,7 @@ print(18%/%7)
 # Modulo: 餘數
 print(18%%7)
 print(18%%2)
-
+x<- -1:12
 ```
 
 ## 2-1-4 Print or not, what's the diffence?
@@ -148,7 +148,7 @@ Reserved Words in R
 ```{r}
 
 # 賦值公式左側無效
-# 1a <- 5
+#1a <- 5
 ```
 
 ## 2-1-9 命名風格
