@@ -46,8 +46,8 @@ typeof(log_values)
 
 # vector內 不是同資料型態時
 tmp1 <- c(1, "2")
-tmp2 <- c(1, TRUE)
-tmp3 <- c("3", 3)
+tmp2 <- c(1+2i, 2)
+tmp3 <- c("3", T)
 
 ```
 
@@ -91,7 +91,7 @@ fruits <- append(fruits, "cherry")
 fruits
 
 # 新增元素 - 至指定索引位置
-fruits <- append(values = fruits, after = 2, x = "melon")
+fruits <- append(values = fruits, after =6 , x = "melon")###
 fruits
 
 ## 合併兩個 vector
@@ -109,7 +109,7 @@ c(v1, v2)
 numbers <- seq(from = 0, to = 100, by = 20)
 numbers
 
-```
+ ```
 
 ## 2-3-3 factor
 
@@ -130,7 +130,7 @@ nlevels(factor_grades)
 length(factor_grades)
 
 # 查看元素
-factor_grades[7]
+factor_grades[8]
 
 ```
 
@@ -184,7 +184,7 @@ typeof(list_1)
 
 # 調用 list 中 vector內 的元素
 thislist[[1]]
-list_1[[1]][1]
+list_1[[1]][3]
 
 
 ```
